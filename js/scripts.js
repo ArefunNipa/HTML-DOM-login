@@ -40,19 +40,19 @@ button.addEventListener("click", function () {
 
             else {
                 // console.log("Age not Match");
-                txt.innerHTML = "Age not Match"
+                txt.innerHTML = "Age not Match (>21 to <30 for Perfect Candidate)"
                 txt.style.color = "red"
             }
         }
         else {
             // console.log("Must Entry bogura but Your entry wrong");
-                txt.innerHTML = "Must Entry bogura but Your entry wrong"
+                txt.innerHTML = "Must Entry (bogura) but Your entry wrong"
                 txt.style.color = "red"
         }
     }
     else {
         // console.log("Must Entry Female but Your entry wrong");
-                txt.innerHTML = "Must Entry Female but Your entry wrong"
+                txt.innerHTML = "Must Entry (female) but Your entry wrong"
                 txt.style.color = "red"
     }
 
