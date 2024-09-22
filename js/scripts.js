@@ -33,29 +33,22 @@ button.addEventListener("click", function () {
     if (gender.value === "female") {
         if (area.value === "bogura") {
             if (age.value >= 21 && age.value <= 30) {
-                // console.log("You Are Perfect Candidate");
                 txt.innerHTML = "You Are Perfect Candidate"
                 txt.style.color = "green"
             }
-
             else {
-                // console.log("Age not Match");
                 txt.innerHTML = "Age not Match (>21 to <30 for Perfect Candidate)"
                 txt.style.color = "red"
             }
         }
         else {
-            // console.log("Must Entry bogura but Your entry wrong");
                 txt.innerHTML = "Must Entry (bogura) but Your entry wrong"
                 txt.style.color = "red"
         }
     }
     else {
-        // console.log("Must Entry Female but Your entry wrong");
                 txt.innerHTML = "Must Entry (female) but Your entry wrong"
                 txt.style.color = "red"
     }
-
-
 })
 
